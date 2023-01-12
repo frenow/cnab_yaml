@@ -1,4 +1,59 @@
+agencia:
+  pos: [18, 21]
+  picture: '9(4)'
+
+codigo_banco:
+  pos: [1, 3]
+  picture: "9(3)"
+  default: "033"
+
+lote_servico:
+  pos: [4, 7]
+  picture: '9(4)'
+
+tipo_registro:
+  pos: [8, 8]
+  picture: "9(1)"
+  default: "1"
+
+tipo_operacao:
+  pos: [9, 9]
+  picture: "X(1)"
+  default: "R"
+
+tipo_servico:
+  pos: [10, 11]
+  picture: "9(2)"
+  default: "01"
+
 reservado_santander_01:
+  pos: [12, 13]
+  picture: 'X(2)'
+  default: ''
+
+versao_layout_lote:
+  pos: [14, 16]
+  picture: "9(3)"
+  default: "030"
+
+reservado_santander_02:
+  pos: [17, 17]
+  picture: 'X(1)'
+  default: ''
+
+empresa_inscricao:
+  # TIPO INSCRIÇÃO EMPRESA DEBITADA
+  # 1 = CPF
+  # 2 = CNPJ
+  pos: [18, 18]
+  picture: '9(1)'
+
+inscricao_numero:
+  # CNPJ EMPRESA DEBITADA
+  pos: [19, 33]
+  picture: '9(15)'
+
+reservado_santander_03:
   pos: [34, 53]
   picture: 'X(20)'
   default: ''
@@ -7,7 +62,7 @@ codigo_transmissao:
   pos: [54, 68]
   picture: '9(15)'
 
-reservado_santander_02:
+reservado_santander_04:
   pos: [69, 73]
   picture: 'X(5)'
   default: ''
@@ -22,7 +77,12 @@ mensagem2:
   picture: 'X(40)'
   default: ''
 
-reservado_santander_03:
+data_geracao:
+  pos: [192, 199]
+  picture: "9(8)"
+  date_format: "%d%m%Y"
+
+reservado_santander_05:
   pos: [200, 240]
   picture: 'X(41)'
   default: ''

@@ -1,6 +1,5 @@
 # Registro Detalhe - Segmento U (Obrigatório - Retorno)
 # Baseado na documentação da febraban versão 08.8
-
 codigo_banco:
   pos: [1, 3]
   picture: '9(3)'
@@ -8,10 +7,6 @@ codigo_banco:
 lote_servico:
   pos: [4, 7]
   picture: '9(4)'
-
-tipo_registro:
-  pos: [8, 8]
-  picture: '9(1)'
 
 numero_sequencial_registro:
   pos: [9, 13]

@@ -1,24 +1,126 @@
-identificador_carne:
-  pos: [210, 212]
-  picture: '9(3)'
-  default: '0'
+codigo_banco:
+  pos: [1, 3]
+  picture: "9(3)"
+  default: "033"
 
-sequencial_parcela:
-  pos: [213, 215]
-  picture: '9(3)'
-  default: '0'
+lote_servico:
+  pos: [4, 7]
+  picture: "9(4)"
+  # default: "1"
 
-quantidade_parcela:
-  pos: [216, 218]
-  picture: '9(3)'
-  default: '0'
+tipo_registro:
+  pos: [8, 8]
+  picture: "9(1)"
+  default: "3"
 
-numero_plano:
-  pos: [219, 221]
-  picture: '9(3)'
-  default: '0'
+numero_sequencial_lote:
+  pos: [9, 13]
+  picture: "9(5)"
+
+codigo_segmento:
+  pos: [14, 14]
+  picture: 'X(1)'
+  default: 'Q'
 
 reservado_santander_01:
-  pos: [222, 240]
-  picture: 'X(19)'
+  pos: [15, 15]
+  picture: 'X(1)'
   default: ''
+
+codigo_ocorrencia:
+  pos: [16, 17]
+  picture: '9(2)'
+
+sacado_codigo_inscricao:
+    pos: [18, 18]
+    picture: '9(02)'
+
+sacado_numero_inscricao:
+  pos: [19, 33]
+  picture: "9(15)"
+
+nome:
+  pos: [34, 73]
+  picture: "X(40)"
+
+logradouro:
+  pos: [74, 113]
+  picture: "X(40)"
+
+bairro:
+  pos: [114, 128]
+  picture: "X(15)"
+
+cep:
+  pos: [129, 133]
+  picture: "9(5)"
+
+sufixo_cep:
+  pos: [134, 136]
+  picture: "9(3)"
+
+cidade:
+  pos: [137, 151]
+  picture: "X(15)"
+
+estado:
+  pos: [152, 153]
+  picture: "X(2)"
+
+sacador_codigo_inscricao:
+  pos: [154, 154]
+  picture: "9(1)"
+
+sacador_numero_inscricao:
+  pos: [155, 169]
+  picture: '9(15)'
+
+sacador_nome:
+  pos: [170, 209]
+  picture: 'X(40)'
+
+reservado_santander_01:
+  pos: [210, 212]
+  picture: 'X(3)'
+
+reservado_santander_02:
+  pos: [213, 215]
+  picture: 'X(3)'  
+
+reservado_santander_03:
+pos: [216, 218]  
+picture: 'X(3)'
+
+reservado_santander_04:
+  pos: [219, 221]
+  picture: "X(3)"
+
+reservado_santander_05:
+  pos: [222, 240]
+  picture: "X(19)"
+  default: ""
+
+# agencia:
+#   pos: [18, 21]
+#   picture: '9(4)'
+
+# identificador_carne:
+#   pos: [210, 212]
+#   picture: '9(3)'
+#   default: '0'
+
+# sequencial_parcela:
+#   pos: [213, 215]
+#   picture: '9(3)'
+#   default: '0'
+
+# quantidade_parcela:
+#   pos: [216, 218]
+#   picture: '9(3)'
+#   default: '0'
+
+# numero_plano:
+#   pos: [219, 221]
+#   picture: '9(3)'
+#   default: '0'
+

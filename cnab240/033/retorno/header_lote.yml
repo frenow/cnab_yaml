@@ -1,0 +1,109 @@
+# Registro Trailer de Lote
+# Com base na documentação do banco Santander
+# disponível em: https://cms.santander.com.br/sites/WPS/documentos/arq-layout-de-arquivos-2/17-10-26_172236_149-382-cobranca+layout+cnab+240+febraban+puro+versao+setembro+2017.pdf
+
+codigo_banco:
+  pos: [1, 3]
+  picture: '9(3)'
+
+lote_servico:
+  pos: [4, 7]
+  picture: '9(4)'
+
+tipo_registro:
+  pos: [8, 8]
+  picture: '9(1)'
+  default: '1'
+
+tipo_operacao:
+  pos: [9, 9]
+  picture: "X(1)"
+  default: "T"  
+
+tipo_servico:
+  pos: [10, 11]
+  picture: "9(2)"
+  default: "01"
+
+reservado_santander_01:
+  pos: [12, 13]
+  picture: 'X(2)'
+  default: ''
+
+versao_layout_lote:
+  pos: [14, 16]
+  picture: "9(3)"
+  default: "040"  
+
+reservado_santander_02:
+  pos: [17, 17]
+  picture: 'X(1)'
+  default: ''  
+
+empresa_inscricao:
+  # TIPO INSCRIÇÃO EMPRESA DEBITADA
+  # 1 = CPF
+  # 2 = CNPJ
+  pos: [18, 18]
+  picture: '9(1)'
+
+inscricao_numero:
+  # CNPJ EMPRESA DEBITADA
+  pos: [19, 33]
+  picture: '9(15)'
+
+codigo_cedente:
+  pos: [34, 42]
+  picture: '9(9)'
+
+reservado_santander_03:
+  pos: [43, 53]
+  picture: 'X(11)'
+  default: '' 
+
+agencia_favorecido:
+  # Agéncia do favorecido.
+  pos: [54,57]
+  picture: '9(9)'
+
+agencia_dv_favorecido:
+  # Digito verificador da agencia do favorecido.
+  pos: [58, 58]
+  picture: 'X(1)'
+
+
+numero_conta_favorecido:
+    pos: [59, 67]
+    picture: '9(9)'
+
+conta_dv_favorecido:
+  # Digito Verificador da conta do favorecido.
+  pos: [68,68]
+  picture: 'X(1)'
+
+reservado_santander_04:
+  pos: [69, 73]
+  picture: 'X(5)'
+
+nome_empresa:
+  pos: [74, 103]
+  picture: 'X(30)'
+
+reservado_santander_05:
+  pos: [104, 183]
+  picture: 'X(80)'    
+
+numero_retorno:
+  pos: [184, 191]
+  picture: "9(8)"
+
+data_geracao:
+  # Data da criação do arquivo. utilizar o formato DDMMAAAA, onde : dd = dia, mm = mês, aa = ano
+  pos: [192, 199]
+  picture: '9(8)'
+  date_format: '%d%m%Y'
+
+reservado_santander_06:
+  pos: [200, 240]
+  picture: 'X(41)'     
+  default: ''

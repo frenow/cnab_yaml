@@ -1,17 +1,87 @@
-codigo_transmissao:
-  pos: [33, 47]
+agencia:
+  pos: [18, 21]
+  picture: '9(4)'
+
+  codigo_banco:
+  pos: [1, 3]
+  picture: '9(3)'
+
+  lote_servico:
+  pos: [4, 7]
+  picture: '9(4)'
+
+  tipo_registro:
+  pos: [8, 8]
+  picture: 'X(1)'
+
+  tipo_inscricao:
+  pos: [17, 17]
+  picture: '9(1)'
+
+  numero_inscricao:
+  pos: [18, 32]
   picture: '9(15)'
 
+  nome_empresa:
+  pos: [73, 102]
+  picture: 'X(30)'
+
+  nome_banco:
+  pos: [103, 132]
+  picture: "X(30)"
+  default: "BANCO SANTANDER"
+
+  codigo_remessa_retorno:
+  pos: [143, 143]
+  picture: "9(1)"
+  default: 1
+
+  data_geracao:
+  pos: [144, 151]
+  picture: "9(8)"
+  date_format: "%d%m%Y"
+
+  numero_sequencial_arquivo:
+  pos: [158, 163]
+  picture: "9(6)"
+
+  versao_layout_arquivo:
+  pos: [164, 166]
+  picture: '9(3)'
+  default: '040'
+
 reservado_santander_01:
+  # Reservado
+  pos: [9, 16]
+  picture: 'X(8)'
+  default: ''
+
+reservado_santander_02:
     pos: [48, 72]
     picture: 'X(25)'
     default: ''
 
-reservado_santander_02:
+reservado_santander_03:
+  # Reservado
+  pos: [133, 142]
+  picture: 'X(10)'
+  default: ''
+
+reservado_santander_04:
   # Reservado
   pos: [152, 157]
   picture: 'X(6)'
   default: ''
+
+reservado_santander_05:
+  # Reservado
+  pos: [167, 240]
+  picture: 'X(74)'
+  default: ''
+
+codigo_transmissao:
+  pos: [33, 47]
+  picture: '9(15)'
 
 versao_layout_arquivo:
   pos: [164, 166]
