@@ -131,7 +131,7 @@ rejeicao:
   'Z5': Boleto com reserva, instrução não permitida
   'Z6': Segmento Inválido para o tipo de Carteira de Cobrança
   'Z7': Instrução exige segmento Y53
-baixa:
+liquidacao:
   '01': Por saldo
   '02': Por conta
   '03': No próprio banco
@@ -141,10 +141,14 @@ baixa:
   '07': Após feriado local
   '08': Em cartório
   '09': Pagamento Parcial
+  '61': Liquidação Por Pagamento PIX
+baixa:
+  '09': Comandada banco
   '10': Comandada cliente arquivo
   '11': Comandada cliente on-line
   '12': Decurso prazo - cliente
-  '13': 'Decurso prazo - banco '
-  '61': Liquidação Por Pagamento PIX
+  '13': Decurso prazo - banco
   '92': Pagamento PIX
+  '93': Baixa Operacional enviado pela CIP
+  '94': Cancelamento de Baixa Operacional enviado pela CIP
 
