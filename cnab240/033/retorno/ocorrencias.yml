@@ -1,0 +1,150 @@
+movimento: 
+  '02': Entrada confirmada
+  '03': Entrada rejeitada
+  '04': Transferência para carteira Simples
+  '05': Transferência para carteira Desconto/Penhor/Vendor/FIDC/Cessão
+  '06': Liquidação
+  '08': Confirmação do Recebimento do Cancelamento do Desconto
+  '09': Baixa
+  '11': Boletos em carteira (em ser)
+  '12': Confirmação recebimento instrução de abatimento
+  '13': Confirmação recebimento instrução de cancelamento abatimento
+  '14': Confirmação recebimento instrução alteração de vencimento
+  '17': Liquidação após baixa ou liquidação boleto não registrado
+  '19': Confirmação recebimento instrução de protesto
+  '20': Confirmação recebimento instrução de sustação/Não Protestar
+  '23': Remessa a cartório (aponte em cartório)
+  '24': Retirada de cartorio e manutenção em carteira
+  '25': Protestado e baixado (baixa por ter sido protestado)
+  '26': Instrução rejeitada
+  '27': Confirmação do pedido de alteração de outros dados
+  '28': Debito de tarifas/custas
+  '29': Ocorrências do Pagador
+  '30': Alteração de dados rejeitada
+  '32': Código de IOF inválido
+  '51': Boleto DDA reconhecido pelo Pagador
+  '52': Boleto DDA não reconhecido pelo Pagador
+  '53': Boleto DDA recusado pela CIP
+  '61': Confirmação de Alteração do Valor Nominal do Boleto
+  '91': Confirmação de Alteração do Valor Mínimo ou Percentual Mínimo
+  '92': Confirmação de Alteração do Valor Máximo ou Percentual Máximo
+  '93': Baixa Operacional
+  '94': Cancelamento de Baixa Operacional
+  'A4': Pagador DDA
+rejeicao:
+  '01': código do banco invalido
+  '02': código do registro detalhe inválido
+  '03': código do segmento invalido
+  '04': código do movimento não permitido para carteira
+  '05': código de movimento invalido
+  '06': tipo/numero de inscrição do Beneficiário inválidos
+  '07': agencia/conta/DV invalido
+  '08': nosso numero invalido
+  '09': nosso numero duplicado
+  '10': carteira invalida
+  '11': forma de cadastramento do boleto invalida. Se Desconto ou Cessão, boleto rejeitado - operação de Desconto ou Cessão fora do horário limite.
+  '12': tipo de documento invalido
+  '13': identificação da emissão do Boleto invalida
+  '14': identificação da distribuição do Boleto invalida
+  '15': características da cobrança incompatíveis
+  '16': data de vencimento invalida
+  '17': data de vencimento anterior a data de emissão
+  '18': vencimento fora do prazo de operação
+  '19': boleto a cargo de bancos correspondentes com vencimento inferior a xx dias
+  '20': valor do boleto invalido
+  '21': espécie do boleto invalida
+  '22': espécie não permitida para a carteira
+  '23': aceite invalido
+  '24': Data de emissão inválida
+  '25': Data de emissão posterior a data de entrada
+  '26': Código de juros de mora inválido
+  '27': Valor/Taxa de juros de mora inválido
+  '28': Código de desconto inválido
+  '29': Valor do desconto maior ou igual ao valor do boleto
+  '30': Desconto a conceder não confere
+  '31': Concessão de desconto - já existe desconto anterior
+  '32': Valor do IOF
+  '33': Valor do abatimento inválido
+  '34': Valor do abatimento maior ou igual ao valor do boleto
+  '35': Abatimento a conceder não confere
+  '36': Concessão de abatimento - já existe abatimento anterior
+  '37': Código para protesto inválido
+  '38': Prazo para protesto inválido
+  '39': Pedido de protesto não permitido para o boleto
+  '40': Boleto com ordem de protesto emitida
+  '41': Pedido de cancelamento/sustação para boletos sem instrução de protesto
+  '42': Código para baixa/devolução inválido
+  '43': Prazo para baixa/devolução inválido
+  '44': Boleto já baixado
+  '45': Nome do Pagador não informado
+  '46': Tipo /Número de inscrição do Pagador inválidos
+  '47': Endereço do Pagador não informado
+  '48': CEP inválido
+  '49': CEP sem praça de cobrança (não localizado)
+  '50': CEP referente a um Banco Correspondente
+  '51': CEP incompatível com a unidade de federação
+  '52': Unidade de federação inválida
+  '53': Tipo/Número de inscrição do sacador/avalista inválidos
+  '54': Sacador/Avalista não informado
+  '55': Nosso número no Banco Correspondente não informado
+  '56': Código do Banco Correspondente não informado
+  '57': Código da multa inválido
+  '58': Data da multa inválida
+  '59': Valor/Percentual da multa inválido
+  '60': Movimento para boleto não cadastrado
+  '61': Alteração de agência cobradora/dv inválida
+  '62': Tipo de impressão inválido
+  '63': Entrada para boleto já cadastrado
+  '64': Número da linha inválido
+  '65': A espécie de boleto não permite a instrução
+  '72': Entrada de boleto Sem Registro
+  '90': Identificador/Quantidade de Parcelas de carnê invalido
+  '91': Boleto Descontado, instrução não permitida
+  '92': Data de Desconto Inválida
+  '93': Número do lote remessa inválido
+  'B2': Valor Nominal do Boleto Conflitante
+  'B3': Tipo de Pagamento Inválido
+  'B4': Valor Máximo ou Percentual Máximo Inválido
+  'B5': Valor Mínimo ou Percentual Mínimo Inválido
+  'C1': Não foi realizada a contratação do produto SX Integra para operar com Cessão
+  'C2': Operação de Cessão não Confirmada
+  'C3': Operação de Cessão Rejeitada - Ver detalhes no relatório do SX Integra
+  'E1': CNPJ Raiz do pagador não pode ser igual ao do beneficiário original
+  'E2': CNPJ Raiz do pagador não pode ser igual ao do beneficiário final
+  'E3': CNPJ Raiz do beneficiário final não pode ser igual ao CNPJ Raiz do beneficiário original para o convênio
+  'E4': CPF do pagador não pode ser igual ao do beneficiário original
+  'E5': CPF do pagador não pode ser igual ao do beneficiário final
+  'E6': CPF do beneficiário final não pode ser igual ao CPF do beneficiário original para o convênio
+  'E7': Registro não permitido - Beneficiário Final com restrição
+  'E8': Código de Moeda Inválido
+  'E9': Obrigatório informar o Beneficiário Final para o boleto
+  'P1': Registrado com QR Code Pix
+  'P2': Registrado sem QR Code Pix
+  'P3': Chave PIX Inválida
+  'P4': Chave PIX sem cadastro na DICT
+  'P5': Chave PIX não é compatível com o CNPJ
+  'P6': Identificador (TXID) em duplicidade
+  'P7': Identificador (TXID) inválido ou não encontrado
+  'P8': Alteração não permitida - QR Code concluído, removido pelo PSP ou removido pelo usuário recebedor
+  'P9': Cancelamento não permitido - QR Code concluído, removido pelo PSP ou removido pelo usuário recebedor
+  'Z1': Quantidade de Pagamento Possíveis Inválido
+  'Z5': Boleto com reserva, instrução não permitida
+  'Z6': Segmento Inválido para o tipo de Carteira de Cobrança
+  'Z7': Instrução exige segmento Y53
+baixa:
+  '01': Por saldo
+  '02': Por conta
+  '03': No próprio banco
+  '04': Compensação eletrônica
+  '05': Compensação convencional
+  '06': Arquivo magnético
+  '07': Após feriado local
+  '08': Em cartório
+  '09': Pagamento Parcial
+  '10': Comandada cliente arquivo
+  '11': Comandada cliente on-line
+  '12': Decurso prazo - cliente
+  '13': 'Decurso prazo - banco '
+  '61': Liquidação Por Pagamento PIX
+  '92': Pagamento PIX
+
