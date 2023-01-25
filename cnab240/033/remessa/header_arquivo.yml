@@ -52,7 +52,7 @@
   picture: 'X(10)'
   default: ''
 
-  codigo_remessa_retorno:
+  codigo_remessa:
   pos: [143, 143]
   picture: "9(1)"
   default: 1
@@ -74,13 +74,8 @@
 
   versao_layout_arquivo:
   pos: [164, 166]
-  picture: '9(3)'
+  picture: 'X(3)'
   default: '040'
-
-  versao_layout_arquivo:
-  pos: [164, 166]
-  picture: '9(3)'
-  default: '40'
 
   reservado_santander_05:
   # Reservado
