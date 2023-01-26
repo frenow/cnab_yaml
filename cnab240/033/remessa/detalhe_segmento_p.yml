@@ -23,13 +23,13 @@ codigo_segmento:
 
 reservado_santander_01:
   pos: [15, 15]
-  picture: 'X(2)'
-  default: ''
+  picture: 'X(1)'
+  default: ' '
 
-codigo_ocorrencia:
-  # Código de Movimento Remessa
+codigo_movimento_remessa:
   pos: [16, 17]
   picture: '9(2)'
+  default: '01' # Entrada Boleto
   
 agencia:
   pos: [18, 21]
@@ -61,7 +61,7 @@ conta_cobranca_dv:
 reservado_santander_02:
   pos: [43, 44]
   picture: 'X(2)'
-  default: ''
+  default: ' '
 
 nosso_numero:
   pos: [45, 57]
@@ -69,33 +69,28 @@ nosso_numero:
 
 tipo_cobranca:
   pos: [58, 58]
-  picture: 'X(1)'
+  picture: '9(1)'
+  default: '5'
   
 forma_cadastramento:
-  # Código adotado pela FEBRABAN, para indicar a existência de registro do título no banco.
-  # ‘1’ = Com Cadastramento (Cobrança Registrada)
-  # ‘2’ = Sem Cadastramento (Cobrança sem Registro)
   pos: [59,59]
   picture: '9(1)'
+  default: '1'
 
 tipo_documento:
-  # Pode ser informado:
-  # ‘ ’
-  # ‘1’ = Tradicional
-  # ‘2’ = Escritural
   pos: [60,60]
   picture: 'X(1)'
-  default: '1'
+  default: '1' # 1 - Tradicional / 2 - Escritural
 
 reservado_santander_03:
   pos: [61, 61]
   picture: 'X(1)'
-  default: ''
+  default: ' '
 
 reservado_santander_04:
   pos: [62, 62]
   picture: 'X(1)'
-  default: ''
+  default: ' '
 
 numero_documento:
   pos: [63, 77]
@@ -114,8 +109,8 @@ valor_titulo:
 
 agencia_cobradora:
   pos: [101, 104]
-  picture: '9(5)'
-  # default: '0'
+  picture: '9(4)'
+  default': '0000'
 
 agencia_cobradora_dv:
   pos: [105, 105]
@@ -125,31 +120,30 @@ agencia_cobradora_dv:
 reservado_santander_05:
   pos: [106, 106]
   picture: 'X(1)'
-  default: ''
+  default: ' '
 
 especie:
-  pos: [107,108]
-  picture: 'X(2)'
+  pos: [107, 108]
+  picture: '9(2)'
+  default: '02' # DM - Duplicata Mercantil
   
 aceite:
-  # Identificação de Título Aceito / Não Aceito
-  # Código adotado pela FEBRABAN para identificar se o título de cobrança foi aceito (reconhecimento da dívida pelo Sacado).
-  # ‘A’ = Aceite
-  # ‘N’ = Não Aceite
-  pos: [109,109]
-  picture: 'X(1)'
+  pos: [109, 109]
+  picture: 'X(1)' 
+  default: 'N' # A -> Aceite / N -> Não Aceite
 
 data_emissao:
-  pos: [110,117]
+  pos: [110, 117]
   picture: '9(8)'
   date_format: '%d%m%Y'
 
 codigo_juros_mora:
-  pos: [118,118]
-  picture: 'X(1)'
+  pos: [118, 118]
+  picture: '9(1)'
+  default: '3' # Isento
 
 data_juros_mora:
-  pos: [119,126]
+  pos: [119, 126]
   picture: '9(8)'
   date_format: '%d%m%Y'
 
@@ -186,22 +180,27 @@ valor_iof:
 valor_abatimento:
   pos: [181, 195]
   picture: '9(15)V9(2)'
+  default: '0'
 
 uso_empresa:
   pos: [196, 220]
   picture: 'X(25)'
+  default: ' '
 
 codigo_protesto:
   pos: [221, 221]
   picture: '9(1)'
+  default: '0' # Não Protestar
 
 prazo_protesto:
   pos: [222, 223]
   picture: '9(2)'
+  default: '00'
 
 codigo_baixa:
   pos: [224, 224]
   picture: '9(1)'
+  default: '1' # Baixar / Devolver
 
 reservado_santander_06:
   pos: [225, 225]
@@ -211,13 +210,14 @@ reservado_santander_06:
 prazo_baixa:
   pos: [226, 227]
   picture: '9(2)'
+  default: '00'
 
 codigo_moeda:
   pos: [228, 229]
   picture: '9(2)'
-  default: '09'
+  default: 09
 
 reservado_santander_07:
   pos: [230, 240]
   picture: '9(11)'
-  default: ''
+  default: ' '

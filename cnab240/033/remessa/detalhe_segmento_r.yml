@@ -3,14 +3,14 @@ codigo_banco:
   picture: '9(3)'
   default: '033'
 
-lote_servico:
+numero_lote_remessa:
   pos: [4, 7]
   picture: '9(4)'
 
 tipo_registro:
   pos: [8, 8]
   picture: '9(1)'
-  default: '3'  
+  default: '3' 
 
 numero_sequencial_lote:
   pos: [9, 13]
@@ -24,59 +24,61 @@ codigo_segmento:
 reservado_santander_01:
   pos: [15, 15]
   picture: 'X(1)'
-  default: ''
+  default: ' '
 
-codigo_ocorrencia:
+codigo_movimento_remessa:
   pos: [16, 17]
   picture: '9(2)'  
+  default: '01' # Entrada Boleto
 
 codigo_desconto_02:
   pos: [18, 18]
   picture: '9(1)'
-  default: 0
+  default: '0'
 
 data_desconto_02:
   pos: [19, 26]
   picture: '9(8)'
   date_format: '%d%m%Y'
-  default: 0
+  default: '0'
 
 valor_desconto_02:
-  # Valor ou Percentual (de acordo com o código)
   pos: [27, 41]
   picture: '9(15)V9(2)'
-  default: 0    
+  default: '0'    
 
 codigo_desconto_03:
   pos: [42, 42]
   picture: '9(1)'
-  default: 0
+  default: '0'
 
 data_desconto_03:
   pos: [43, 50]
   picture: '9(8)'
   date_format: '%d%m%Y'
-  default: 0
+  default: '0'
 
 valor_desconto_03:
-  # Valor ou Percentual (de acordo com o código)
   pos: [51, 65]
   picture: '9(15)V9(2)'
-  default: 0  
+  default: '0'  
 
 codigo_multa:
   pos: [66, 66]
   picture: '9(1)'  
+  default: '1'
 
 data_multa:
   pos: [67, 74]
   picture: '9(8)'
   date_format: '%d%m%Y'  
+  default: '0'
 
 valor_multa:
   # Valor ou percentual de multa a ser aplicado sobre o valor do Título, por atraso no pagamento.
   pos: [75, 89]
   picture: '9(15)V9(2)'
+  default: '0'
 
 reservado_santander_02:
   pos: [90, 99]
@@ -86,14 +88,14 @@ reservado_santander_02:
 mensagem_3:
   pos: [100, 139]
   picture: 'X(40)'
-  default: ''
+  default: ' '
 
 mensagem_4:
   pos: [140, 179]
   picture: 'X(40)'
-  default: ''
+  default: ' '
 
 reservado_santander_03:
   pos: [180, 240]
   picture: 'X(61)'
-  default: ''  
+  default: ' '  

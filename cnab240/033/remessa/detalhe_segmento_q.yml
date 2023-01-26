@@ -1,17 +1,17 @@
 codigo_banco:
   pos: [1, 3]
   picture: "9(3)"
-  default: "033"
+  default: '033'
 
-lote_servico:
+numero_lote_remessa:
   pos: [4, 7]
   picture: "9(4)"
-  # default: "1"
+  default: '0002'
 
 tipo_registro:
   pos: [8, 8]
   picture: "9(1)"
-  default: "3"
+  default: '3'
 
 numero_sequencial_lote:
   pos: [9, 13]
@@ -25,51 +25,54 @@ codigo_segmento:
 reservado_santander_01:
   pos: [15, 15]
   picture: 'X(1)'
-  default: ''
+  default: ' '
 
-codigo_ocorrencia:
+codigo_movimento_remessa:
   pos: [16, 17]
   picture: '9(2)'
+  default: '01' # Entrada Boleto
 
-sacado_codigo_inscricao:
-    pos: [18, 18]
-    picture: '9(02)'
+sacado_tipo_inscricao:
+  pos: [18, 18]
+  picture: '9(01)'
+  default: '1' #CPF
 
 sacado_numero_inscricao:
   pos: [19, 33]
   picture: "9(15)"
 
-nome:
+sacado_nome:
   pos: [34, 73]
   picture: "X(40)"
 
-logradouro:
+sacado_logradouro:
   pos: [74, 113]
   picture: "X(40)"
 
-bairro:
+sacado_bairro:
   pos: [114, 128]
   picture: "X(15)"
 
-cep:
+sacado_cep:
   pos: [129, 133]
   picture: "9(5)"
 
-sufixo_cep:
+sacado_sufixo_cep:
   pos: [134, 136]
   picture: "9(3)"
 
-cidade:
+sacado_cidade:
   pos: [137, 151]
   picture: "X(15)"
 
-estado:
+sacado_estado:
   pos: [152, 153]
   picture: "X(2)"
 
-sacador_codigo_inscricao:
+sacador_tipo_inscricao:
   pos: [154, 154]
   picture: "9(1)"
+  default: '1' #CPF
 
 sacador_numero_inscricao:
   pos: [155, 169]
@@ -81,46 +84,26 @@ sacador_nome:
 
 reservado_santander_01:
   pos: [210, 212]
-  picture: 'X(3)'
+  picture: '9(3)'
+  default: '0'
 
 reservado_santander_02:
   pos: [213, 215]
-  picture: 'X(3)'  
+  picture: '9(3)' 
+  default: '0' 
 
 reservado_santander_03:
-pos: [216, 218]  
-picture: 'X(3)'
+  pos: [216, 218]  
+  picture: '9(3)'
+  default: '0'
 
 reservado_santander_04:
   pos: [219, 221]
-  picture: "X(3)"
+  picture: "9(3)"
+  default: '0'
 
 reservado_santander_05:
   pos: [222, 240]
   picture: "X(19)"
-  default: ""
-
-# agencia:
-#   pos: [18, 21]
-#   picture: '9(4)'
-
-# identificador_carne:
-#   pos: [210, 212]
-#   picture: '9(3)'
-#   default: '0'
-
-# sequencial_parcela:
-#   pos: [213, 215]
-#   picture: '9(3)'
-#   default: '0'
-
-# quantidade_parcela:
-#   pos: [216, 218]
-#   picture: '9(3)'
-#   default: '0'
-
-# numero_plano:
-#   pos: [219, 221]
-#   picture: '9(3)'
-#   default: '0'
+  default: ' '
 
