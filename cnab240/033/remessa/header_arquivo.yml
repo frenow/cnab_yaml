@@ -1,17 +1,17 @@
 codigo_banco:
   pos: [1, 3]
   picture: 'X(3)'
-  default: ' 33'
+  default: '033'
 
 numero_lote_remessa:
   pos: [4, 7]
   picture: '9(4)'
-  default: 0001
+  default: '0000'
 
 tipo_registro:
   pos: [8, 8]
   picture: '9(1)'
-  default: 0
+  default: '0'
 
 reservado_santander_01:
   # Reservado
@@ -47,7 +47,6 @@ nome_banco:
   default: "Banco Santander"
 
 reservado_santander_03:
-  # Reservado
   pos: [133, 142]
   picture: 'X(10)'
   default: ' '
@@ -71,6 +70,7 @@ reservado_santander_04:
 numero_sequencial_arquivo:
   pos: [158, 163]
   picture: "9(6)"
+  default: '0'
 
 versao_layout_arquivo:
   pos: [164, 166]
