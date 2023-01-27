@@ -75,6 +75,7 @@ numero_sequencial_arquivo:
 versao_layout_arquivo:
   pos: [164, 166]
   picture: 'X(3)'
+  picture: 'X(3)'
   default: '040'
 
 reservado_santander_05:
