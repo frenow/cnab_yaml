@@ -150,7 +150,7 @@ data_juros_mora:
 valor_juros_mora:
   # Valor ou porcentagem sobre o valor do título a ser cobrado de juros de mora.
   pos: [127, 141]
-  picture: '9(15)V9(2)'
+  picture: '9(13)V9(2)'
 
 codigo_desconto_1:
   # ‘0’ = Sem Desconto
@@ -169,17 +169,17 @@ data_desconto_1:
 valor_desconto_1:
   # Valor ou percentual de desconto a ser concedido sobre o título de cobrança.
   pos: [151, 165]
-  picture: '9(15)V9(2)'
+  picture: '9(13)V9(2)'
   default: '0'
 
 valor_iof:
   pos: [166, 180]
-  picture: '9(15)V9(2)'
+  picture: '9(13)V9(2)'
   default: '0'
 
 valor_abatimento:
   pos: [181, 195]
-  picture: '9(15)V9(2)'
+  picture: '9(13)V9(2)'
   default: '0'
 
 uso_empresa:
