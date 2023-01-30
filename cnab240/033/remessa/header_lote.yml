@@ -30,7 +30,7 @@ reservado_santander_01:
 versao_layout_lote:
   pos: [14, 16]
   picture: "9(3)"
-  default: 030
+  default: '030'
 
 reservado_santander_02:
   pos: [17, 17]
