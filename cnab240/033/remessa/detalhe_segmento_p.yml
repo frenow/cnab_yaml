@@ -94,7 +94,7 @@ reservado_santander_04:
 
 numero_documento:
   pos: [63, 77]
-  picture: 'X(15)'
+  picture: '9(15)'
 
 data_vencimento:
   pos: [78, 85]
@@ -105,7 +105,7 @@ valor_titulo:
   # Valor original do Título. Quando o valor for expresso em moeda corrente, utilizar 2 casas decimais.
   # Quando o valor for expresso em moeda variável, utilizar 5 decimais.
   pos: [86, 100]
-  picture: '9(15)V9(2)'
+  picture: '9(13)V9(2)'
 
 agencia_cobradora:
   pos: [101, 104]
