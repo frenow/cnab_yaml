@@ -201,7 +201,7 @@ codigo_baixa:
 
 reservado_santander_06:
   pos: [225, 225]
-  picture: '9(11)'
+  picture: '9(1)'
   default: '0'
 
 prazo_baixa:
@@ -212,9 +212,9 @@ prazo_baixa:
 codigo_moeda:
   pos: [228, 229]
   picture: '9(2)'
-  default: 09
+  default: '00'
 
 reservado_santander_07:
   pos: [230, 240]
   picture: '9(11)'
-  default: ' '
+  default: ''
