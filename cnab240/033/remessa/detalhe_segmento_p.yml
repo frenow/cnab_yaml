@@ -174,18 +174,15 @@ valor_desconto_1:
 
 valor_iof:
   pos: [166, 180]
-  picture: '9(13)V9(2)'
-  default: '0'
+  picture: '9(10)V9(5)'
 
 valor_abatimento:
   pos: [181, 195]
   picture: '9(13)V9(2)'
-  default: '0'
 
 uso_empresa:
   pos: [196, 220]
-  picture: 'X(25)'
-  default: ' '
+  picture: '9(25)'
 
 codigo_protesto:
   pos: [221, 221]
