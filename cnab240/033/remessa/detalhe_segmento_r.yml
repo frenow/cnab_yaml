@@ -44,7 +44,7 @@ data_desconto_02:
 
 valor_desconto_02:
   pos: [27, 41]
-  picture: '9(15)V9(2)'
+  picture: '9(13)V9(2)'
   default: '0'    
 
 codigo_desconto_03:
@@ -60,7 +60,7 @@ data_desconto_03:
 
 valor_desconto_03:
   pos: [51, 65]
-  picture: '9(15)V9(2)'
+  picture: '9(13)V9(2)'
   default: '0'  
 
 codigo_multa:
@@ -77,7 +77,7 @@ data_multa:
 valor_multa:
   # Valor ou percentual de multa a ser aplicado sobre o valor do Título, por atraso no pagamento.
   pos: [75, 89]
-  picture: '9(15)V9(2)'
+  picture: '9(13)V9(2)'
   default: '0'
 
 reservado_santander_02:
