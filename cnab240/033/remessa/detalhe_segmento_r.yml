@@ -49,24 +49,24 @@ valor_desconto_02:
 
 codigo_desconto_03:
   pos: [42, 42]
-  picture: '9(1)'
-  default: '0'
+  picture: 'X(1)'
+  default: ''
 
 data_desconto_03:
   pos: [43, 50]
-  picture: '9(8)'
+  picture: 'X(8)'
   date_format: '%d%m%Y'
-  default: '0'
+  default: ''
 
 valor_desconto_03:
   pos: [51, 65]
-  picture: '9(13)V9(2)'
-  default: '0'  
+  picture: 'X(15)'
+  default: ''  
 
 codigo_multa:
   pos: [66, 66]
   picture: '9(1)'  
-  default: '1'
+  default: '0'
 
 data_multa:
   pos: [67, 74]
