@@ -81,7 +81,7 @@ mensagem2:
 numero_remessa:
   pos: [184, 191]
   picture: '9(8)'
-  default: '000001'
+  default: '00000001'
 
 data_geracao:
   pos: [192, 199]
