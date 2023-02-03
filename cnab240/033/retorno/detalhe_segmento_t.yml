@@ -56,7 +56,7 @@ reservado_santander_02:
 nosso_numero:
   pos: [41, 53]
   picture: '9(13)'
-  default: 'nosso numero'
+  default: '' 
 
 codigo_carteira:
   pos: [54, 54]
@@ -75,7 +75,7 @@ valor_titulo:
   pos: [78, 92]
   picture: '9(13)V9(2)'
 
-numero_banco:
+numero_banco_cobrador:
   pos: [93, 95]
   picture: '9(3)'
 
@@ -88,7 +88,7 @@ agencia_cobradora_dac:
   pos: [100, 100]
   picture: '9(1)'
 
-uso_empresa:
+identificacao_boleto:
   pos: [101, 125]
   picture: 'X(25)'
 

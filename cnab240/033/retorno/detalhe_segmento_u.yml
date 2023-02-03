@@ -1,8 +1,7 @@
-# Registro Detalhe - Segmento U (Obrigatório - Retorno)
-# Baseado na documentação da febraban versão 08.8
 codigo_banco:
   pos: [1, 3]
   picture: '9(3)'
+  default: '033'
 
 lote_servico:
   pos: [4, 7]
@@ -88,12 +87,7 @@ codigo_banco_correspondente:
   pos: [211, 213]
   picture: '9(3)'
 
-# Nosso No Banco Correspondente
-nosso_numero_banco_correspondente:
-  pos: [214, 233]
-  picture: '9(20)'
-
 # Uso Exclusivo FEBRABAN/CNAB
 uso_exclusivo_febraban_02:
-  pos: [234, 240]
-  picture: '9(7)'
+  pos: [214, 240]
+  picture: '9(27)'
