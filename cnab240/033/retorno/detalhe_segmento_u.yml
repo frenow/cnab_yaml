@@ -14,6 +14,7 @@ numero_sequencial_registro:
 codigo_segmento:
   pos: [14, 14]
   picture: 'X(1)'
+  default: 'U'
 
 uso_exclusivo_febraban_01:
   pos: [15, 15]
