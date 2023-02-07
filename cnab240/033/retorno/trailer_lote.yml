@@ -26,7 +26,7 @@ quantidade_boletos_cobranca_simples:
 
 valor_total_cobranca_simples: 
   pos: [30, 46]
-  picture: '9(17)'
+  picture: '9(15)V9(2)'
 
 quantidade_boletos_cobranca_vinculada:
   pos: [47, 52]
@@ -34,7 +34,7 @@ quantidade_boletos_cobranca_vinculada:
 
 valor_total_cobranca_vinculada: 
   pos: [53, 69]
-  picture: '9(17)'
+  picture: '9(15)V9(2)'
 
 quantidade_boletos_cobranca_caucionada:
   pos: [70, 75]
@@ -42,7 +42,7 @@ quantidade_boletos_cobranca_caucionada:
 
 valor_total_cobranca_caucionada: 
   pos: [76, 92]
-  picture: '9(17)'
+  picture: '9(15)V9(2)'
 
 quantidade_boletos_cobranca_descontada:
   pos: [93, 98]
@@ -50,7 +50,7 @@ quantidade_boletos_cobranca_descontada:
 
 valor_total_cobranca_descontada: 
   pos: [99, 115]
-  picture: '9(17)'
+  picture: '9(15)V9(2)'
 
 numero_aviso_lancamento:
   pos: [116, 123]

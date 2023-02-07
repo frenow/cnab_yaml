@@ -20,7 +20,7 @@ uso_exclusivo_febraban_01:
   pos: [15, 15]
   picture: 'X(1)'
 
-codigo_movimento:
+codigo_ocorrencia:
   pos: [16, 17]
   picture: '9(2)'
 
