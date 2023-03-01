@@ -72,7 +72,7 @@ sacado_estado:
 sacador_tipo_inscricao:
   pos: [154, 154]
   picture: "9(1)"
-  default: '1' #CPF
+  default: '0' #CPF
 
 sacador_numero_inscricao:
   pos: [155, 169]
