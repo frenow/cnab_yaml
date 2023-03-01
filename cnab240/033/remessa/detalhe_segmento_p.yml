@@ -216,5 +216,5 @@ codigo_moeda:
 
 reservado_santander_07:
   pos: [230, 240]
-  picture: '9(11)'
+  picture: 'X(11)'
   default: ''
